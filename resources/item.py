@@ -4,7 +4,7 @@ from models.item import ItemModel
 
 class Item(Resource):
 
-    TABLE_NAME = 'items'
+    
 
     parser = reqparse.RequestParser()
     parser.add_argument('price',
